@@ -1,0 +1,76 @@
+  
+  body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(27, 207, 207);
+  }
+  
+
+  /* main container for calculater */
+  .calculator{
+    font-family: arial;
+    background-color: rgb(113, 194, 167);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+  }
+
+  /* input fiels to see the inputs dada */
+  #display{
+    width: 100%;
+    background-color: rgb(120, 207, 178);
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    color: white;
+
+  }
+   /* container for buttons */
+  .btns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 25px;
+    gap: 10px;
+  }
+  /* style the button */
+  button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(206, 206, 172);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+   }
+
+   /* change the background color when the button was hover */
+button:hover{
+    background-color: rgb(77, 172, 159);
+}
+
+
+/* change the  background color when button active */
+ button:active{
+    background-color: rgb(77,182,400);
+} 
+
+/* change the operator btn color */
+.operater-btn{
+    background-color: rgb(219, 219, 129);
+}
+
+/* change the operater btn background color on hover  */
+.operater-btn:hover{
+    background-color: rgb(226, 226, 183);
+}
+
+/* change the background color of operater btn on active btn */
+.operater-btn:active{
+    background-color: rgb(247, 247, 157);
+}
